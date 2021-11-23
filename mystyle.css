@@ -59,9 +59,10 @@ body {
     margin-top: 8px;
     margin-bottom: 8px;
     color:white;
+    transition: ease-out 0.5s;
 }
 
-.nft_title:hover, .nft_title:active {
+.nft_title:hover, .nft_title:active, .createdby:hover, .createdby:active {
     cursor: pointer;
     color: hsl(178, 100%, 50%, .5);
 }
@@ -114,12 +115,17 @@ hr {
 
 .createdby {
     color: white;
+    transition: ease-out 0.5s;
 }
 
 .attribution{
-    position: absolute;
-    bottom: 4%;
+    font-size: 19px;
+}
+
+.attribution{
     text-align: center;
     margin: auto;
-    background-color: silver;
+    margin-top: 100px;
+    width: 440px;
+    color: hsl(215, 51%, 70%);;
 }
